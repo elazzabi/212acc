@@ -1,5 +1,5 @@
 import Link from 'next/link'
-
+import Image from 'next/image'
 import { CheckIcon } from '@/components/CheckIcon'
 import { Container } from '@/components/Container'
 
@@ -8,16 +8,25 @@ export function Introduction() {
     <section
       id="introduction"
       aria-label="Introduction"
-      className="pb-16 pt-20 sm:pb-20 md:pt-36 lg:py-32"
+      className="pb-16 pt-16 sm:pb-20 md:pt-36 lg:py-32"
     >
       <Container className="text-lg tracking-tight text-slate-700">
+        <div className="center mb-16">
+          <Image
+            src="/212_acc.svg"
+            alt="212 Accelerationism logo"
+            className="mx-auto"
+            width={632}
+            height={108}
+          />
+        </div>
         <h1 className="max-w-lg font-display text-4xl text-slate-900">
           Moroccans, we've lost sight of the basics.
         </h1>
         <p className="mt-4">
-          The Moroccan space has been toxic lately—full of hate speech, inflated
-          egos, empty conversations, and no real progress. Nothing that benefits
-          the community, the country, or even ourselves.
+          The Moroccan tech space has been toxic lately—full of hate speech,
+          inflated egos, empty conversations, and no real progress. Nothing that
+          benefits the community, the country, or even ourselves.
         </p>
         <p className="mt-4">
           Nothing will change in Morocco unless we{' '}
