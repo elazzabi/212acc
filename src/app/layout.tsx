@@ -17,9 +17,9 @@ const calSans = localFont({
 })
 
 export const metadata: Metadata = {
-  title: 'oss/acc',
+  title: '212/acc',
   description:
-    'Everything is build with Open Source. The modern world we live in today would simply not exist.',
+    '212/acc is a decentralized community movement focused on accelerating progress in Morocco through innovation, technology, and a forward-thinking mindset.',
 }
 
 export default function RootLayout({
@@ -47,7 +47,7 @@ export default function RootLayout({
         <link
           rel="icon"
           type="image/svg+xml"
-          href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🚀🤒🎅</text></svg>"
+          href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🚀🚀🚀</text></svg>"
         />
         <link
           rel="stylesheet"
