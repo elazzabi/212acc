@@ -11,109 +11,98 @@ export function Introduction() {
       className="pb-16 pt-20 sm:pb-20 md:pt-36 lg:py-32"
     >
       <Container className="text-lg tracking-tight text-slate-700">
-        <p className="max-w-lg font-display text-4xl text-slate-900">
-          Everything is built with Open Source. The modern world we live in
-          today would simply not exist.
+        <h1 className="max-w-lg font-display text-4xl text-slate-900">
+          Moroccans, we've lost sight of the basics.
+        </h1>
+        <p className="mt-4">
+          The Moroccan space has been toxic lately—full of hate speech, inflated
+          egos, empty conversations, and no real progress. Nothing that benefits
+          the community, the country, or even ourselves.
         </p>
         <p className="mt-4">
-          As we accelerate into the future, we need to make sure that we
-          continue building open systems that impact our day to day lives,
-          especially when it comes to advanced AI and AGI.
+          Nothing will change in Morocco unless we{' '}
+          <strong>start creating</strong>. We need engineers, artists,
+          entrepreneurs, and creators to push us forward.
         </p>
-        <p className="mt-4">We need oss/acc.</p>
+        <p className="mt-4">
+          It feels like we've forgotten how to work, produce, and move ahead.
+          Instead, we're doing the bare minimum, wasting time, and blaming
+          everything and everyone but ourselves.
+        </p>
 
-        <ul role="list" className="mt-8 space-y-3">
-          {[
-            'Transparency and Trust',
-            'Security and Reliability',
-            'Innovation and Progress',
-            'Accessibility and Inclusivity',
-            'Customizability and Flexibility',
-            'Longevity and Sustainability',
-            'Ethical and Social Responsibility',
-            'Global Collaboration and Cooperation',
-          ].map((feature) => (
-            <li key={feature} className="flex">
-              <CheckIcon className="h-8 w-8 flex-none fill-blue-500" />
-              <span className="ml-4">{feature}</span>
-            </li>
-          ))}
-        </ul>
+        <p className="mt-4">
+          You can blame your job, the market, or the lack of opportunities. But
+          technology and the Internet are here. There's no excuse not to learn
+          and advance.
+        </p>
+
+        <p className="mt-4">We can do better.</p>
+
+        <p className="mt-4">
+          <strong>We must do better</strong>.
+        </p>
+
+        <h2 className="mt-16 text-2xl font-bold">
+          What's the root of the problem?
+        </h2>
+
+        <p className="mt-4">
+          Bureaucracy, competition, regulations—they're all part of the game.
+        </p>
+
+        <p className="mt-4">
+          But the core issue is: <strong>We talk more than we build</strong>.
+        </p>
+
+        <p className="mt-4">
+          There's this strange satisfaction when you talk about an idea.
+        </p>
+
+        <p className="mt-4">
+          You start with the name, the vision, and how it’s going to be the next
+          big thing. You dive into the details, the numbers, the market, and the
+          potential income. You dream about the design, the features, the global
+          presence, the billionaire status, and the impact you’ll make...
+        </p>
+
+        <p className="mt-4">
+          And by the time you're done talking, you feel like you've already made
+          it.
+        </p>
+
+        <p className="mt-4">But the truth is, you haven’t done anything.</p>
+
+        <p className="mt-4">
+          Instead of talking, start building.
+          <strong> Create more. Ship more. The world is your playground</strong>
+          .
+        </p>
+
+        <h2 className="mt-16 text-2xl font-bold">
+          The goals of this manifesto are:
+        </h2>
+
         <div className="prose dark:prose-invert dark mt-8 w-full break-words">
           <ol className="space-y-4">
-            <li>
-              <p>
-                <strong>Transparency and Trust:</strong> Open source
-                software&apos;s code is accessible to everyone, allowing users
-                to review, modify, and enhance it. This transparency fosters
-                trust as it ensures there are no hidden functionalities or
-                vulnerabilities that could compromise security.
-              </p>
+            <li className="flex">
+              <CheckIcon className="h-8 w-8 flex-none fill-blue-500" />
+              <span>
+                <strong>Highlight excellence:</strong> Amplify great Moroccan
+                technologists
+              </span>
             </li>
-            <li>
-              <p>
-                <strong>Security and Reliability:</strong> With a global
-                community continuously examining the code, issues and
-                vulnerabilities are quickly identified and fixed. This
-                collaborative approach leads to more secure and reliable
-                software, reducing the risk of cyber attacks and ensuring robust
-                systems for critical infrastructure.
-              </p>
+            <li className="flex">
+              <CheckIcon className="h-8 w-8 flex-none fill-blue-500" />
+              <span>
+                <strong>Make shipping the default:</strong> Build a more
+                productive, entrepreneurial community
+              </span>
             </li>
-            <li>
-              <p>
-                <strong>Innovation and Progress:</strong> Open source encourages
-                innovation by enabling developers worldwide to build upon
-                existing solutions. This collaborative environment sparks
-                creativity and accelerates technological progress, leading to
-                better tools, applications, and systems that benefit society.
-              </p>
-            </li>
-            <li>
-              <p>
-                <strong>Accessibility and Inclusivity:</strong> Open source
-                software is often free or available at minimal cost, breaking
-                down financial barriers to technology. It empowers individuals
-                and communities, particularly in underserved regions, to access
-                and use advanced tools, fostering digital inclusivity.
-              </p>
-            </li>
-            <li>
-              <p>
-                <strong>Customizability and Flexibility:</strong> Users can
-                tailor open source software to suit their specific needs. This
-                flexibility allows for customization, adaptation, and
-                integration into diverse environments, ensuring solutions that
-                fit a wide array of contexts and requirements.
-              </p>
-            </li>
-            <li>
-              <p>
-                <strong>Longevity and Sustainability:</strong> Open source
-                projects are not dependent on the fate of a single entity.
-                Communities sustain these projects, ensuring their longevity
-                even if a particular organization or company fades away,
-                providing continuity and stability.
-              </p>
-            </li>
-            <li>
-              <p>
-                <strong>Ethical and Social Responsibility:</strong> Open source
-                software embodies principles of collaboration, sharing, and
-                knowledge dissemination. It aligns with ethical values by
-                promoting the democratization of technology and fostering a
-                culture of giving back to the community.
-              </p>
-            </li>
-            <li>
-              <p>
-                <strong>Global Collaboration and Cooperation:</strong> Open
-                source transcends borders and encourages collaboration among
-                diverse communities worldwide. It harnesses the collective
-                intelligence of individuals irrespective of their geographical
-                location, fostering a global spirit of cooperation and shared
-                advancement.
-              </p>
+            <li className="flex">
+              <CheckIcon className="h-8 w-8 flex-none fill-blue-500" />
+              <span>
+                <strong>Support members:</strong> Push everyone forward
+              </span>
             </li>
           </ol>
         </div>
@@ -123,12 +112,12 @@ export function Introduction() {
           more secure, equitable, and prosperous world for all.
         </p>
         <p className="mt-8">
-          Join the open source movement and sign the manifesto or{' '}
+          Join the movement and sign the manifesto or{' '}
           <a
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-600 hover:text-blue-800"
-            href="https://twitter.com/search?q=I've%20signed%20the%20http://ossacc.com%20open%20source%20acceleration%20manifesto%20and%20you%20should%20do%20it%20too!&src=typed_query"
+            href="https://twitter.com/search?q=I've%20signed%20the%20http://212acc.com%20Moroccan%20acceleration%20manifesto%20and%20you%20should%20do%20it%20too!&src=typed_query"
           >
             see who already has signed it
           </a>
@@ -136,7 +125,7 @@ export function Introduction() {
         </p>
         <p className="mt-10">
           <Link
-            href="https://twitter.com/intent/tweet?text=I've%20signed%20the%20ossacc.com%20open%20source%20acceleration%20manifesto%20and%20you%20should%20do%20it%20too!"
+            href="https://twitter.com/intent/tweet?text=I've%20signed%20the%20http://212acc.com%20Moroccan%20acceleration%20manifesto%20and%20you%20should%20do%20it%20too!"
             className="text-blue-600 hover:text-blue-800"
           >
             Sign and share on x.com
