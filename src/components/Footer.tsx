@@ -7,11 +7,12 @@ export function Footer() {
         <GridPattern x="50%" />
       </div>
       <a
-        href="https://github.com/peerrich/ossacc"
+        href="https://github.com/elazzabi/212acc"
         className="relative text-center text-sm text-slate-600"
       >
         <p>
-          MIT &copy; {new Date().getFullYear()} oss/acc – Source Code on GitHub
+          MIT &copy; {new Date().getFullYear()} 212/acc – Inpired by oss/acc -
+          Source Code on GitHub
         </p>
       </a>
     </footer>
