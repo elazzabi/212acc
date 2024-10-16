@@ -37,7 +37,7 @@ export default function RootLayout({
       )}
     >
       <head>
-        <meta property="og:image" content="https://ossacc.com/og-image.jpg" />
+        <meta property="og:image" content="https://212acc.com/og-image.jpg" />
 
         <link
           rel="preconnect"
