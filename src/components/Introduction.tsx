@@ -21,7 +21,7 @@ export function Introduction() {
           />
         </div>
         <h1 className="max-w-lg font-display text-4xl text-slate-900">
-          Moroccans, we've lost sight of the basics.
+          Moroccans, we&apos;ve lost sight of the basics.
         </h1>
         <p className="mt-4">
           The Moroccan tech space has been toxic lately—full of hate speech,
@@ -34,15 +34,15 @@ export function Introduction() {
           entrepreneurs, and creators to push us forward.
         </p>
         <p className="mt-4">
-          It feels like we've forgotten how to work, produce, and move ahead.
-          Instead, we're doing the bare minimum, wasting time, and blaming
-          everything and everyone but ourselves.
+          It feels like we&apos;ve forgotten how to work, produce, and move
+          ahead. Instead, we&apos;re doing the bare minimum, wasting time, and
+          blaming everything and everyone but ourselves.
         </p>
 
         <p className="mt-4">
           You can blame your job, the market, or the lack of opportunities. But
-          technology and the Internet are here. There's no excuse not to learn
-          and advance.
+          technology and the Internet are here. There&apos;s no excuse not to
+          learn and advance.
         </p>
 
         <p className="mt-4">We can do better.</p>
@@ -52,11 +52,12 @@ export function Introduction() {
         </p>
 
         <h2 className="mt-16 text-2xl font-bold">
-          What's the root of the problem?
+          What&apos;s the root of the problem?
         </h2>
 
         <p className="mt-4">
-          Bureaucracy, competition, regulations—they're all part of the game.
+          Bureaucracy, competition, regulations—they&apos;re all part of the
+          game.
         </p>
 
         <p className="mt-4">
@@ -64,22 +65,25 @@ export function Introduction() {
         </p>
 
         <p className="mt-4">
-          There's this strange satisfaction when you talk about an idea.
+          There&apos;s this strange satisfaction when you talk about an idea.
         </p>
 
         <p className="mt-4">
-          You start with the name, the vision, and how it’s going to be the next
-          big thing. You dive into the details, the numbers, the market, and the
-          potential income. You dream about the design, the features, the global
-          presence, the billionaire status, and the impact you’ll make...
+          You start with the name, the vision, and how it&apos;s going to be the
+          next big thing. You dive into the details, the numbers, the market,
+          and the potential income. You dream about the design, the features,
+          the global presence, the billionaire status, and the impact
+          you&apos;ll make...
         </p>
 
         <p className="mt-4">
-          And by the time you're done talking, you feel like you've already made
-          it.
+          And by the time you&apos;re done talking, you feel like you&apos;ve
+          already made it.
         </p>
 
-        <p className="mt-4">But the truth is, you haven’t done anything.</p>
+        <p className="mt-4">
+          But the truth is, you haven&apos;t done anything.
+        </p>
 
         <p className="mt-4">
           Instead of talking, start building.
