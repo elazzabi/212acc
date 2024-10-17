@@ -120,11 +120,6 @@ export function Introduction() {
           </ol>
         </div>
         <p className="mt-8">
-          A future built upon open source software cultivates an environment
-          where technology serves humanity, empowers individuals, and creates a
-          more secure, equitable, and prosperous world for all.
-        </p>
-        <p className="mt-8">
           Join the movement and sign the manifesto or{' '}
           <a
             target="_blank"
